@@ -212,10 +212,20 @@
 }
 
 @keyframes updown {
-
+  0%    {left:10%; top:-10px;}
+  20%   {left:calc(100% - 30px); top:-10px;}
+  40%   {left:calc(100% - 30px); top:90%;}
+  60%   {left:0; top:90%;}
+  80%   {left:-20px; top:-10px;}
+  100%  {left:10%; top:-10px;}
 
 }
 
 @keyframes downup {
-
+  0%    {right:20%; bottom:-10px;}
+  20%   {right:calc(100% - 30px); bottom:-10px;}
+  40%   {right:calc(100% - 30px); bottom:90%;}
+  60%   {right:0; bottom:90%;}
+  80%   {right:-20px; bottom:-10px;}
+  100%  {right:20%; bottom:-10px;}
 }
